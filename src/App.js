@@ -11,8 +11,11 @@ function App() {
       </Helmet>
       <header className="App-header">
         <img src={Logo} className="App-logo" alt="logo" />
-        <p>
+        <p style={{ fontSize: 30 }}>
           בית דין צדק לעניני ממונות
+          <br />
+          פתח תקווה
+
         </p>
         <h5
           className="App-link"
@@ -20,16 +23,15 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          פתח תקווה
           <div>
-            רחוב יד הבנים 30
+            רחוב יד הבנים 30 פ"ת
           </div>
         </h5>
       </header>
       <div className='content'>
-        <h2>
+        <h1>
           בראשות הגאון ר' עמרם פריד שליט"א
-        </h2>
+        </h1>
         <h3>- - -</h3>
         <div style={{ height: '50px' }}></div>
         <h4>
@@ -39,11 +41,12 @@ function App() {
           <div>
             <span className='detail-title'> טל המזכירות:</span>
 
-            0556787822
+            055-678-7822
           </div>
           <div>
-
+            {/* <a style={{ color: "#282c34" }} href='sh4180014@gmail.com'> */}
             sh4180014@gmail.com
+            {/* </a> */}
             <span className='detail-title'>  :מייל</span>
           </div>
           <div>
