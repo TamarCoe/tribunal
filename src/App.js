@@ -1,17 +1,10 @@
 import Logo from './Logo.png';
 import './App.css';
-import { Helmet } from "react-helmet";
 
 function App() {
   return (
     <div className="App">
-      <Helmet>
-        <meta name="description" content="בית דין צדק חדש בנהולו של הגאון הגדול רבי עמרם פריד, בית דין לעניני ממונות בפתח תקווה, רחוב הבנים 30 פ
-        ת" />
-        <meta name="robots" content="index, follow" />
-        <meta name="keywords" content="בית דין, פתח תקווה, דיני ממונות , רבי עמרם פריד, רבי שמואל כהן" />
-        <title>בית דין פ"ת</title>
-      </Helmet>
+    
       <header className="App-header">
         <img src={Logo} className="App-logo" alt="logo" />
         <p style={{ fontSize: 30 }}>
